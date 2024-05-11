@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15737e50035c0497681cbb8084769567, type: 3}
+  m_Name: TextureSwapping
+  m_EditorClassIdentifier: 
+  isTerrain: 0
+  legoPrefab: {fileID: 6598524835993097391, guid: c3d0df64a073c4e56926d7135b6e5f09,
+    type: 3}
+  structurePrefab: {fileID: -3111009854509367321, guid: c3d0df64a073c4e56926d7135b6e5f09,
+    type: 3}
+  minimumSize: 0.1
+  maximumSize: 5
+  willSwapModels: 0
+  modelSwapping:
+    duration: 0
+    models: []
+  willSwapTextures: 1
+  textureMappings:
+  - baseMap: {fileID: 2800000, guid: d43b7b8e175c14b199b6937cd8c5ccb4, type: 3}
+    normalMap: {fileID: 2800000, guid: 1bbae2e1992da45c3803a37ce01ee277, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: c1474fe364d924daebe88d866037f107, type: 3}
+    normalMap: {fileID: 2800000, guid: 3af69dcc3eb0b4b24b39bc3c9d93d4ac, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: b4ae250c268c94ceca7964307a586605, type: 3}
+    normalMap: {fileID: 2800000, guid: ff3a3f52902354ab69eef5427b8d8493, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: 842121e75d2924584a8f26497bacd856, type: 3}
+    normalMap: {fileID: 2800000, guid: 585ea7f13d7024aaaa7cf6c7c6cf329c, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: 33535da8f72a84a4189c161b964b32e4, type: 3}
+    normalMap: {fileID: 2800000, guid: 10a8bad02810b45e68e9089fd377da7e, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: 48e3aea782bf740adab61a8c691c0db8, type: 3}
+    normalMap: {fileID: 2800000, guid: 63ea010d8589143178e58f56943c1c0b, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  willPrintModel: 0
+  printDuration: 0
+  maxPrintHeight: 0
+  minPrintHeight: 0
+  printValue: _CutoffHeight
+  editMode: 0
+  swappableModels: []

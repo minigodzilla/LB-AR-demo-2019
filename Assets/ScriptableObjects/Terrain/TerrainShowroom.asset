@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15737e50035c0497681cbb8084769567, type: 3}
+  m_Name: TerrainShowroom
+  m_EditorClassIdentifier: 
+  isTerrain: 1
+  legoPrefab: {fileID: 5134403882005274745, guid: 5e81f8df5212f4ee491344e3d5959bbc,
+    type: 3}
+  structurePrefab: {fileID: 1262441439420887354, guid: 5e81f8df5212f4ee491344e3d5959bbc,
+    type: 3}
+  minimumSize: 0.025
+  maximumSize: 0.5
+  willSwapModels: 0
+  modelSwapping:
+    duration: 0
+    models: []
+  willSwapTextures: 0
+  textureMappings: []
+  willPrintModel: 0
+  printDuration: 0
+  maxPrintHeight: 0
+  minPrintHeight: 0
+  printValue: _CutoffHeight
+  editMode: 0
+  swappableModels: []

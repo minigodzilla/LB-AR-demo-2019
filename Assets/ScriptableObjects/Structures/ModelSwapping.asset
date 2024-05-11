@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15737e50035c0497681cbb8084769567, type: 3}
+  m_Name: ModelSwapping
+  m_EditorClassIdentifier: 
+  isTerrain: 0
+  legoPrefab: {fileID: 6270422715686711178, guid: dd37b1d83d4dc451498396aafdf2ed44,
+    type: 3}
+  structurePrefab: {fileID: 2262067902061508149, guid: dd37b1d83d4dc451498396aafdf2ed44,
+    type: 3}
+  minimumSize: 0.1
+  maximumSize: 5
+  willSwapModels: 1
+  modelSwapping:
+    duration: 1
+    models:
+    - {fileID: 6270422715686711178, guid: dd37b1d83d4dc451498396aafdf2ed44, type: 3}
+    - {fileID: 1384900006223814370, guid: 9e7a12121a104478cb625e0ee98b3404, type: 3}
+    - {fileID: 4829680948184782636, guid: 7423012b17d554ca08d0594659a7041e, type: 3}
+    - {fileID: 7049356427300758266, guid: b8c7bb61608424c1397a83efddac73ad, type: 3}
+    - {fileID: 4190866603676065327, guid: 9c5bc793e9dd8449da3afe0cddbc7498, type: 3}
+    - {fileID: 9177825368557159339, guid: a1638c874f57146d39e74e5b91e4390e, type: 3}
+    - {fileID: 6481726824446170470, guid: 2b5e97db250e0440e85671ecf003ad76, type: 3}
+    - {fileID: 9177825368557159339, guid: 7e8146969ec534873b548a8368da70d8, type: 3}
+  willSwapTextures: 0
+  textureMappings: []
+  willPrintModel: 0
+  printDuration: 0
+  maxPrintHeight: 0
+  minPrintHeight: 0
+  printValue: _CutoffHeight
+  editMode: 0
+  swappableModels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

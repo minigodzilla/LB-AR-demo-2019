@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15737e50035c0497681cbb8084769567, type: 3}
+  m_Name: 3DPrinting
+  m_EditorClassIdentifier: 
+  isTerrain: 0
+  legoPrefab: {fileID: 6598524835993097391, guid: 993ea6f71071f4e389969892ff91f4ab,
+    type: 3}
+  structurePrefab: {fileID: -1739017005712881123, guid: 8c98851d01a7c41db95e1cec4f2dd318,
+    type: 3}
+  minimumSize: 1
+  maximumSize: 5
+  willSwapModels: 0
+  modelSwapping:
+    duration: 0
+    models: []
+  willSwapTextures: 0
+  textureMappings:
+  - baseMap: {fileID: 2800000, guid: 7effac90a25334f089eb8d0818c48803, type: 3}
+    normalMap: {fileID: 2800000, guid: a2b79c517df6d4e26b6318555e4e8a93, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: ea230fa10d97442b8b3dbca8af773c18, type: 3}
+    normalMap: {fileID: 2800000, guid: 2326c5fc6383f47ffa63e3fca7470abc, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  - baseMap: {fileID: 2800000, guid: 980f2f270853f4239ae667fa00adbd1f, type: 3}
+    normalMap: {fileID: 2800000, guid: 5d72cd5915eed46ea9f8794787021a09, type: 3}
+    baseColor: {r: 1, g: 1, b: 1, a: 1}
+    baseValue: _BaseMap
+    normalValue: _BumpMap
+    colorValue: _BaseColor
+  willPrintModel: 1
+  printDuration: 10
+  maxPrintHeight: 3.07
+  minPrintHeight: 1
+  printValue: _CutoffHeight
+  editMode: 3
+  swappableModels: []

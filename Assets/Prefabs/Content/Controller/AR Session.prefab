@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9100196356434185490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9100196356434185501}
+  - component: {fileID: 9100196356434185500}
+  - component: {fileID: 9100196356434185491}
+  - component: {fileID: 9100196356434185503}
+  - component: {fileID: 9100196356434185502}
+  m_Layer: 0
+  m_Name: AR Session
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9100196356434185501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100196356434185490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9100196356434185500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100196356434185490}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3859a92a05d4f5d418cb6ca605290e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AttemptUpdate: 1
+  m_MatchFrameRate: 1
+--- !u!114 &9100196356434185491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100196356434185490}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa850fbd5b8aded44846f96e35f1a9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9100196356434185503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100196356434185490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1758d185a6a8498e9a14346d00c0048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  willUpdate: 0
+  raycastManager: {fileID: 0}
+  sessionOrigin: {fileID: 0}
+  planeManager: {fileID: 0}
+  anchorManager: {fileID: 0}
+  cameraProperties: {fileID: 0}
+  anchor: {fileID: 1877277545160393231, guid: b9a2ca7b1f740ea4d9c734f4efa71182, type: 3}
+--- !u!114 &9100196356434185502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100196356434185490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b358a11423d4f80b050f09df588d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structureParent: {fileID: 0}
+  lightEstimatePanel: {fileID: 0}
+  structureReferences: {fileID: 11400000, guid: 45718770c32f2422fa609757c7697cc7,
+    type: 2}
+  gameLogic:
+    poseIndicator: {fileID: 0}
+    scanHint: {fileID: 0}
+    notification: {fileID: 0}
+    gameHUD:
+      infoButton: {fileID: 0}
+      infoExitButton: {fileID: 0}
+      editPosition: {fileID: 0}
+      editRotation: {fileID: 0}
+      editScale: {fileID: 0}
+      viewMode: {fileID: 0}
+      moveAround: {fileID: 0}
+      instructionPanel: {fileID: 0}
+      subEditModePanel: {fileID: 0}
+      subScanPanel: {fileID: 0}
+      subHint: {fileID: 0}
+      instructionText: {fileID: 0}
+      instructionAnim: {fileID: 0}
+      HUDAnim: {fileID: 0}
