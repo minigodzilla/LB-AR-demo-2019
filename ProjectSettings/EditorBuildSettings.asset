@@ -27,20 +27,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Demos/ShowroomB.unity
     guid: 059aa4a1a4e9349068e637f42730c0ae
   - enabled: 1
+    path: Assets/Scenes/Demos/ShowroomC.unity
+    guid: 9d0e4222f768644ef91d46fca77d069b
+  - enabled: 1
     path: Assets/Scenes/Demos/3DPrintingOneShot.unity
     guid: 285bbcec69d334dc6b09db076d50be2f
   - enabled: 1
     path: Assets/Scenes/Demos/3DPrintingStaged.unity
     guid: 8997df36164d4479582291a30891ffc6
   - enabled: 0
-    path: Assets/Scenes/Kapyong/Kapyong_Home.unity
-    guid: 69da6ce6079c1407a95874c702d89982
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Kapyong/Kapyong_AR.unity
-    guid: 4f210c0014ac04e969fb7f1250327361
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Kapyong/Kapyong_Scrollytelling.unity
-    guid: 05c289768a62e4a03bb14be3ad513784
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: 102fc6bd099e1422dac1d571274d6dc0,
       type: 2}
